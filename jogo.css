@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+#dashboard {
+    padding: 0 px;
+    margin: 0 auto;
+    margin-top: 25 px;
+}
+
+#dashboard tr td {
+    width: 80 px; 
+    height: 80 px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
