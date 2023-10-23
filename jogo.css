@@ -9,15 +9,21 @@ table {
 }
 
 #dashboard {
-    padding: 0 px;
+    padding: 0px;
     margin: 0 auto;
-    margin-top: 25 px;
+    margin-top: 25px;
 }
 
 #dashboard tr td {
-    width: 80 px; 
-    height: 80 px;
+    width: 80px; 
+    height: 80px;
     border: 1px solid black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+#dashboard tr td:hover {
+background: gray;
+cursor: pointer;
+transition: 0.5s;
 }
